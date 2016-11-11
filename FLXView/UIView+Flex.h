@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (readwrite, nonatomic, assign) FLXSelfAlignment flx_selfAlignment;
 
+@property (readwrite, nonatomic, assign) BOOL flx_layoutWhenHidden;
+
 @end
 
 NS_ASSUME_NONNULL_END
